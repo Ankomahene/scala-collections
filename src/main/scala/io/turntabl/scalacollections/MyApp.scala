@@ -23,7 +23,8 @@ object MyApp extends App {
     val names = List("Isaac", "Yaa", "Franklin", "Denis")
     names foreach(println)
 
-    names foreach(n =>  if(n.length>6) println(n))
+    val namesGT6Letters = names foreach(n => if(n.length>6) n)
+    println(namesGT6Letters)
 
     println(names.count(_.length > 6))
 
