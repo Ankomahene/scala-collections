@@ -5,7 +5,7 @@ plugins {
 
 group 'io.turntabl'
 version '1.0-SNAPSHOT'
-mainClassName = 'io.turntabl.scalagettingstarted.MyApp'
+mainClassName = 'io.turntabl.scalacollections.MyApp'
 
 sourceCompatibility = 1.8
 
